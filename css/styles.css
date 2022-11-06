@@ -19,7 +19,7 @@ body {
     height: 80px;
 }
 
-.nav {
+.header__nav {
     display: flex;
     justify-content: space-between;
     max-width: 992px;

@@ -14,6 +14,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+main {
+    width: 100%;
+}
+
 /*The header starts here*/
 
 .header {
@@ -226,6 +230,7 @@ p {
 
 
 @media (max-width: 768px) {
+    /*Aqui comienza el Home*/
     .header {
         height: 60px;
     }
@@ -274,5 +279,20 @@ p {
     .home__title--primary, .home__title--secondary{
         font-size: 25px;     
     } 
-    
+
+    /*Aqui comienza el About*/
+
+    .about__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .skill__item {
+        font-size: 50px;
+        padding: 0;
+        transition: all 0.3s;
+        min-width: 75px;
+        height: 150px;
+    }
+
 }

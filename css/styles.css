@@ -14,6 +14,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*The header starts here*/
+
 .header {
     background-color: black;
     height: 80px;
@@ -82,7 +84,9 @@ body {
     cursor: pointer;
 }
 
-.main__home {
+/*Here begins the first section of the main*/
+
+.home {
     min-height: 100vh;
     display: flex;
     padding: 30px;
@@ -92,7 +96,7 @@ body {
     /* position: relative; */
 }
 
-.main__home--background {
+.home__background {
     background-color: #8e8e8e;
     background-image: url(/img/background.png);
     background-attachment: fixed;
@@ -104,7 +108,7 @@ body {
     z-index: -1;
 }
 
-.main__picture--img {
+.home__img {
     height: 250px;
     border-radius: 30%;
     margin: 0 0 30px;
@@ -128,6 +132,98 @@ body {
     color: #f5f5f5;
     text-shadow: 1px 1px black;
 } 
+
+/*Here begins the second section of the main*/
+
+.container {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.about__title {
+    color: var(--grey);
+    font-size: 35px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.about__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about__description {
+    text-align: left;
+    color: var(--grey);
+    padding-right: 80px;
+    line-height: 40px;
+}
+
+.about__description h2 {
+    color: var(--grey);
+    margin: 20px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about__button--cv {
+    background: var(--blue);
+    color: var(--white);
+    padding: 5px 30px;
+    display: inline-block;
+    align-self: center;
+    margin: 20px auto;
+    font: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.about__skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.skill__title {
+    color: var(--grey);
+    grid-column: span 3;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.skill__item {
+    font-size: 65px;
+    color: var(--grey);
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+    height: 180px;
+    text-align: center;
+}
+
+.skill__item img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.skill__name {
+    font-size: 16px;
+    text-align: center;
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -166,11 +262,11 @@ body {
     .nav-menu_visible {
         left: 0;
     }
-    .main__home {
+    .home {
         flex-direction: column;
         text-align: center;
     }
-    .main__picture {
+    .home__picture {
         align-items: center;
     }
     .home__title {

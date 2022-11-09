@@ -226,6 +226,39 @@ p {
     text-align: center;
 }
 
+/**/
+
+.main__service {
+    padding: 90px 0;
+    text-align: center;
+    background: white;
+}
+
+.main__container {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.section__subtitle {
+    color: var(--grey);
+    text-align: start;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -295,4 +328,7 @@ p {
         height: 150px;
     }
 
+    /*Aqui comienza service*/
+
+    
 }

@@ -97,7 +97,6 @@ main {
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.8);
-    /* position: relative; */
 }
 
 .home__background {
@@ -226,7 +225,7 @@ p {
     text-align: center;
 }
 
-/**/
+/*Aqui comienza la seccion de servicios*/
 
 .main__service {
     padding: 90px 0;
@@ -241,6 +240,12 @@ p {
     justify-content: inherit;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 h2 {
@@ -258,6 +263,8 @@ h2 {
     text-align: start;
     margin-bottom: 20px;
 }
+
+
 
 
 

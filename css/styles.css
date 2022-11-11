@@ -228,7 +228,7 @@ p {
 /*Aqui comienza la seccion de servicios*/
 
 .main__service {
-    padding: 90px 0;
+    /* padding: 90px 0; */
     text-align: center;
     background: white;
 }
@@ -258,14 +258,141 @@ h2 {
     font-weight: bold;
 }
 
+.section__title {
+    color: var(--grey);
+    font-size: 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
 .section__subtitle {
     color: var(--grey);
     text-align: start;
     margin-bottom: 20px;
 }
 
+/*Aqui comienza la seccion de portfolio*/
 
+.portfolio__container {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;    
+}
 
+.portfolio__title {
+
+}
+
+.portfolio__subtitle {
+    margin-bottom: 30px;
+}
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio__item--one {
+    background-image:url(/img/Bs._As._Nutricion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    /* color: var(--white); */
+    position: relative;
+}
+
+.portfolio__item--one::before {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color:red;
+}
+
+.portfolio__item--one::after {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color:red;
+}
+
+.portfolio__item--one h2 {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--one:hover h2 {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__item--one p {
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    transform: translateX(180%);
+}
+
+.portfolio__item--one:hover p {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__item--two {
+    background-image:url(/img/Romero_Brothers.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    /* color: var(--white); */
+    position: relative;
+}
+
+.portfolio__item--two h2 {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+.portfolio__item--two p {
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
+
+.portfolio__item--three {
+    background-image:url(/img/corralon_el_puente.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* color: var(--white); */
+    position: relative;
+}
+
+.portfolio__item--three h2 {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+.portfolio__item--three p {
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
 
 
 
@@ -335,7 +462,20 @@ h2 {
         height: 150px;
     }
 
-    /*Aqui comienza service*/
+    /*Aqui comienza section service*/
 
+    .main__service {
+        padding: 0;
+        
+    }
+    .services__grid {
+        grid-template-columns: 1fr;
+    }
+
+    /*Aqui comienza section portfolio*/
+
+    .portfolio__grid {
+        grid-template-columns: 1fr;
+    }
     
 }

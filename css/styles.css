@@ -282,9 +282,9 @@ h2 {
     padding: 0 20px;    
 }
 
-.portfolio__title {
+/* .portfolio__title {
 
-}
+} */
 
 .portfolio__subtitle {
     margin-bottom: 30px;
@@ -299,13 +299,21 @@ h2 {
     overflow: hidden;
 }
 
+/* "Comienzo card numero 1" */
+
 .portfolio__item--one {
     background-image:url(/img/Bs._As._Nutricion.png);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
-    /* color: var(--white); */
+    color: var(--white);
     position: relative;
+}
+
+.portfolio__item--one:hover {
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: 120%, 110%;
 }
 
 .portfolio__item--one::before {
@@ -313,9 +321,14 @@ h2 {
     top: 10px;
     left: 20px;
     content: "";
-    width: 80%;
+    width: 0;
     height: 2px;
-    background-color:red;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--one:hover::before {
+    width: 80%;
 }
 
 .portfolio__item--one::after {
@@ -323,14 +336,20 @@ h2 {
     bottom: 10px;
     right: 20px;
     content: "";
-    width: 80%;
+    width: 0;
     height: 2px;
-    background-color:red;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--one:hover::after {
+    width: 80%;
 }
 
 .portfolio__item--one h2 {
     position: absolute;
-    left: 20px;
+    left: 50%;
+    margin-left: -25%;
     top: 70px;
     transform: translateX(-120%);
 }
@@ -342,7 +361,8 @@ h2 {
 
 .portfolio__item--one p {
     position: absolute;
-    left: 20px;
+    left: 50%;
+    margin-left: -30%;
     top: 130px;
     transform: translateX(180%);
 }
@@ -352,12 +372,14 @@ h2 {
     transition: 0.6s;
 }
 
+/* "Fin card numero 1" */
+
 .portfolio__item--two {
     background-image:url(/img/Romero_Brothers.png);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
-    /* color: var(--white); */
+    color: var(--white);
     position: relative;
 }
 
@@ -372,6 +394,8 @@ h2 {
     left: 20px;
     top: 130px;
 }
+
+/* "Fin card numero 2" */
 
 .portfolio__item--three {
     background-image:url(/img/corralon_el_puente.png);
@@ -394,6 +418,7 @@ h2 {
     top: 130px;
 }
 
+/* "Fin card numero 3" */
 
 
 @media (max-width: 768px) {

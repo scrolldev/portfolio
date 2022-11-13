@@ -375,7 +375,7 @@ h2 {
 /* "Fin card numero 1" */
 
 .portfolio__item--two {
-    background-image:url(/img/Romero_Brothers.png);
+    background-image:url(../img/Romero_Brothers.png);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
@@ -448,7 +448,7 @@ h2 {
 /* "Fin card numero 2" */
 
 .portfolio__item--three {
-    background-image:url(/img/corralon_el_puente.png);
+    background-image:url(../img/corralon_el_puente.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

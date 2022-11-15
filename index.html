@@ -25,25 +25,25 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">Home</a>
+                    <a href="#home" class="nav-menu-link nav-link">Home</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">About</a>
+                    <a href="#about" class="nav-menu-link nav-link">About</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">Services</a>
+                    <a href="#service" class="nav-menu-link nav-link">Services</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">Portfolio</a>
+                    <a href="#portfolio" class="nav-menu-link nav-link">Portfolio</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contact</a>
+                    <a href="#contact" class="nav-menu-link nav-link nav-menu-link_active">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <section class="home">
+        <section id="home" class="home">
             <div class="home__background"></div>
             <picture class="home__picture">
               <img class="home__img" src="img/Foto portfolio.png" alt="Foto de perfil">
@@ -54,7 +54,7 @@
               <span class="home__title--secondary">Freelance Web Developer</span>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <h2 class="about__title">About me</h2>
                 <div class="about__grid">
@@ -90,7 +90,7 @@
                 </div>
             </div>                 
         </section>
-        <section class="main__service">
+        <section id="service" class="main__service">
             <div class="main__container">
                 <h2 class="section__title">Service</h2>
                 <h3 class="section__subtitle">Services I offer to my clients</h3>
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__portfolio">
+        <section id="portfolio" class="main__portfolio">
             <div class="portfolio__container">
                 <h2 class="portfolio__title">Portfolio</h2>
                 <h3 class="portfolio__subtitle">Aquí puedes ver proyectos en los que he trabajado.</h3>
@@ -144,15 +144,23 @@
                     <div class="portfolio__item--two">
                         <h2>Romero Brothers</h2>
                         <p>Local de informática</p>
+                        <div class="portfolio__buttons">
+                            <a class="button" href="https://scrolldev.github.io/buenosAiresNutricion/" target="_blank">Website</a>
+                            <a class="button" href="https://github.com/scrolldev/buenosAiresNutricion" target="_blank">Repository</a>  
+                        </div>
                     </div>
                     <div class="portfolio__item--three">
                         <h2>Corralon El Puente</h2>
                         <p>Corralon de materiales para la construccion</p>
+                        <div class="portfolio__buttons">
+                            <a class="button" href="https://scrolldev.github.io/buenosAiresNutricion/" target="_blank">Website</a>
+                            <a class="button" href="https://github.com/scrolldev/buenosAiresNutricion" target="_blank">Repository</a>  
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="main__contact">Contact</section>
+        <section id="contact" class="main__contact">Contact</section>
     </main>
     <footer class="footer">
 

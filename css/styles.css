@@ -93,7 +93,7 @@ main {
 .home {
     min-height: 100vh;
     display: flex;
-    padding: 30px;
+    padding: 0 30px;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.8);

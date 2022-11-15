@@ -101,7 +101,7 @@ main {
 
 .home__background {
     background-color: #8e8e8e;
-    background-image: url(..img/background.png);
+    background-image: url(../img/background.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

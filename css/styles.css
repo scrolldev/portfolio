@@ -8,6 +8,10 @@
     --green: #008744;
     --blueReact: #61DBFB;
    }
+
+html {
+    scroll-behavior: smooth;
+}   
    
 section[id] {
     scroll-margin-top: 80px;
@@ -115,7 +119,7 @@ header.scroll {
 
 .home__background {
     /* background-color: #8e8e8e; */
-    background-image: url(../img/background.png);
+    background-image: url(../img/Background-1.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -483,6 +487,29 @@ h2 {
     transition: 0.6s;
 }
 
+.portfolio__buttons {
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top: 200px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--two:hover .portfolio__buttons{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.button {
+    background: var(--blue);
+    color: #f5f5f5;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 /* "Fin card numero 2" */
 
 .portfolio__item--three {
@@ -556,6 +583,29 @@ h2 {
     transition: 0.6s;
 }
 
+.portfolio__buttons {
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top: 200px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--three:hover .portfolio__buttons{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.button {
+    background: var(--blue);
+    color: #f5f5f5;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 /* "Fin card numero 3" */
 
 
@@ -575,7 +625,7 @@ h2 {
         background-color: rgba(0, 0, 0, 0.97);
         position: fixed;
         left: 0;
-        top: 60px;
+        /* top: 60px; */
         width: 100%;
         align-items: center;
         height: calc(100% - 60px);

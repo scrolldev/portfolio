@@ -1,5 +1,7 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
+const navMenuItem = document.querySelector(".nav-menu-item");
+
 
 navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("nav-menu_visible");
@@ -11,15 +13,16 @@ navToggle.addEventListener("click", () => {
     }
 });
 
+navMenuItem.addEventListener("click", cerrarMenu)
+
+function cerrarMenu() {
+    navMenu.classList.remove("nav-menu_visible",);
+}
+    
+
+
+
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("scroll", this.window.scrollY > 0);
-})
-
-const menuLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
-
-menuLinks.forEach(menuLink => {
-    menuLink.addEventListener("click", function() {
-        menuLink.classList.remove("aria-label", "Abrir menú");
-    })
 })

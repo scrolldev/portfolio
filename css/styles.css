@@ -115,6 +115,7 @@ header.scroll {
     line-height: 60px;
     display: none;
     cursor: pointer;
+    z-index: 1;
 }
 
 /*Here begins the first section of the main*/

@@ -774,4 +774,9 @@ h2 {
         grid-template-columns: 1fr;
     }
     
+    /*Aqui comienza section contact*/
+
+    .contact__grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }

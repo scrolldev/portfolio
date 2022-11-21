@@ -376,12 +376,17 @@ h2 {
     padding: 0 20px;    
 }
 
-/* .portfolio__title {
-
-} */
+.portfolio__title {
+    color: var(--grey);
+    font-size: 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
 
 .portfolio__subtitle {
-    margin-bottom: 30px;
+    color: var(--grey);
+    text-align: start;
+    margin-bottom: 20px;
 }
 
 .portfolio__grid {
@@ -683,6 +688,29 @@ h2 {
 }
 
 /* "Fin card numero 3" */
+
+.main__contact {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact__title {
+    color: var(--grey);
+    font-size: 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.contact__subtitle {
+    color: var(--grey);
+    text-align: start;
+    margin-bottom: 20px;
+}
 
 .contact__grid {
     display: grid;

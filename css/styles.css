@@ -301,6 +301,70 @@ h2 {
     margin-bottom: 20px;
 }
 
+.services__item i {
+    transition: all 0.3s;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.services__item h3 {
+    color: var(--grey);
+    margin-bottom: 15px;
+}
+
+.services__item p {
+    color: var(--grey);
+}
+
+.fa-mobile-screen-button {
+    color: var(--blue);
+}
+
+.fa-pen-ruler {
+    color: var(--orange);
+}
+
+.fa-code {
+    color: var(--green);
+}
+
+.fa-thumbs-up {
+    color: var(--orange);
+}
+
+.fa-gauge-high {
+    color: var(--amarillo);
+}
+
+.fa-crosshairs {
+    color: var(--blue)
+}
+
+.fa-mobile-screen-button:hover {
+    color: var(--grey);
+}
+.fa-pen-ruler:hover {
+    color: var(--grey);
+}
+
+.fa-code:hover {
+    color: var(--grey);
+}
+
+.fa-thumbs-up:hover {
+    color: var(--grey);
+}
+
+.fa-gauge-high:hover {
+    color: var(--grey);
+}
+
+.fa-crosshairs:hover {
+    color: var(--grey);
+}
+
+
+
 /*Aqui comienza la seccion de portfolio*/
 
 .portfolio__container {

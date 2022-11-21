@@ -81,6 +81,7 @@ header.scroll {
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
+    display:inherit;
 }
 
 .nav-menu {
@@ -255,7 +256,7 @@ p {
     text-align: center;
 }
 
-/*Aqui comienza la seccion de servicios*/
+/*Here begins the services section*/
 
 .main__service {
     /* padding: 90px 0; */
@@ -363,9 +364,7 @@ h2 {
     color: var(--grey);
 }
 
-
-
-/*Aqui comienza la seccion de portfolio*/
+/*Here begins the portfolio section*/
 
 .portfolio__container {
     width: 100%;
@@ -398,7 +397,7 @@ h2 {
     overflow: hidden;
 }
 
-/* "Comienzo card numero 1" */
+/* "Start card number one" */
 
 .portfolio__item--one {
     background-image:url(../img/Bs._As._Nutricion.png);
@@ -494,8 +493,7 @@ h2 {
     border-radius: 20px;
 }
 
-
-/* "Fin card numero 1" */
+/* "Fin card number one" */
 
 .portfolio__item--two {
     background-image:url(../img/Romero_Brothers.png);
@@ -591,7 +589,7 @@ h2 {
     border-radius: 20px;
 }
 
-/* "Fin card numero 2" */
+/* "Fin card number two" */
 
 .portfolio__item--three {
     background-image:url(../img/corralon_el_puente.png);
@@ -687,7 +685,7 @@ h2 {
     border-radius: 20px;
 }
 
-/* "Fin card numero 3" */
+/* "Fin card number three" */
 
 .main__contact {
     width: 100%;
@@ -780,9 +778,6 @@ h2 {
   .footer a:hover {
     color: var(--blue);
   }
-
-
-
 
 @media (max-width: 768px) {
     /*Aqui comienza el Home*/

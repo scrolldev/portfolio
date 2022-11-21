@@ -1,6 +1,6 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
-const navMenuItem = document.querySelector(".nav-menu-item");
+const navMenuItem = document.querySelector(".nav-menu");
 
 
 navToggle.addEventListener("click", () => {
@@ -18,9 +18,6 @@ navMenuItem.addEventListener("click", cerrarMenu)
 function cerrarMenu() {
     navMenu.classList.remove("nav-menu_visible",);
 }
-    
-
-
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");

@@ -402,7 +402,7 @@ h2 {
 .portfolio__item--one {
     background-image:url(../img/Bs._As._Nutricion.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     overflow: hidden;
     color: var(--white);
     position: relative;
@@ -447,7 +447,7 @@ h2 {
 .portfolio__item--one h2 {
     position: absolute;
     left: 50%;
-    margin-left: -25%;
+    margin-left: -23%;
     top: 70px;
     transform: translateX(-120%);
 }
@@ -460,7 +460,7 @@ h2 {
 .portfolio__item--one p {
     position: absolute;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -25%;
     top: 130px;
     transform: translateX(180%);
 }
@@ -473,7 +473,7 @@ h2 {
 .portfolio__buttons {
     position: absolute;
     left: 50%;
-    margin-left: -35%;
+    margin-left: -37%;
     top: 200px;
     transform: translateX(-120%);
 }
@@ -498,7 +498,7 @@ h2 {
 .portfolio__item--two {
     background-image:url(../img/Romero_Brothers.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     overflow: hidden;
     color: var(--white);
     position: relative;
@@ -556,9 +556,9 @@ h2 {
 .portfolio__item--two p {
     position: absolute;
     left: 50%;
-    margin-left: -20%;
+    margin-left: -15%;
     top: 130px;
-    transform: translateX(180%);
+    transform: translateX(250%);
 }
 
 .portfolio__item--two:hover p {
@@ -652,7 +652,7 @@ h2 {
 .portfolio__item--three p {
     position: absolute;
     left: 50%;
-    margin-left: -40%;
+    margin-left: -25%;
     top: 130px;
     transform: translateX(180%);
 }
@@ -665,7 +665,7 @@ h2 {
 .portfolio__buttons {
     position: absolute;
     left: 50%;
-    margin-left: -35%;
+    margin-left: -33%;
     top: 200px;
     transform: translateX(-120%);
 }

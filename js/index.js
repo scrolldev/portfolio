@@ -1,6 +1,7 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 const navMenuItem = document.querySelector(".nav-menu");
+const check = document.querySelector(".check");
 
 
 navToggle.addEventListener("click", () => {
@@ -23,3 +24,14 @@ window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("scroll", this.window.scrollY > 0);
 })
+
+check.addEventListener('click', idioma);
+
+function idioma() {
+    let id = check.checked;
+    if (id == true) {
+        location.href = "en/index.html"
+    } else {
+        location.href = "../index.html"
+    }
+}

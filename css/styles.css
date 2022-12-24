@@ -119,6 +119,50 @@ header.scroll {
     z-index: 1;
 }
 
+.en {
+    color: var(--white);
+}
+
+.es {
+    color: var(--white);
+}
+
+.check {
+    position: relative;
+    width: 50px;
+    height: 19px;
+}
+
+.check:before {
+    content:"";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.check:after {
+    content:"";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: var(--white);
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid var(--grey);
+    box-sizing: border-box;
+}
+
+.check:checked:after {
+    left: 25px;
+    border: 2px solid var(--blue);
+}
+
+.check:checked:before {
+    background: var(--blue);
+}
+
 /*Here begins the first section of the main*/
 
 .home {

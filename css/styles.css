@@ -731,6 +731,264 @@ h2 {
 
 /* "Fin card number three" */
 
+.portfolio__item--four {
+    background-image:url(../img/Red_Social.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: var(--white);
+    position: relative;
+}
+
+.portfolio__item--four:hover {
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: 120%, 110%;
+}
+
+.portfolio__item--four::before {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--four:hover::before {
+    width: 80%;
+}
+
+.portfolio__item--four::after {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--four:hover::after {
+    width: 80%;
+}
+
+.portfolio__item--four h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 70px;
+    transform: translateX(-220%);
+}
+
+.portfolio__item--four:hover h2 {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__item--four p {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 130px;
+    transform: translateX(220%);
+}
+
+.portfolio__item--four:hover p {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__buttons {
+    position: absolute;
+    left: 50%;
+    margin-left: -33%;
+    top: 200px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--four:hover .portfolio__buttons{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+/* "Fin card number four" */
+
+.portfolio__item--five {
+    background-image:url(../img/Barbería_Alura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: var(--white);
+    position: relative;
+}
+
+.portfolio__item--five:hover {
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: 120%, 110%;
+}
+
+.portfolio__item--five::before {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--five:hover::before {
+    width: 80%;
+}
+
+.portfolio__item--five::after {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--five:hover::after {
+    width: 80%;
+}
+
+.portfolio__item--five h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 70px;
+    transform: translateX(-220%);
+}
+
+.portfolio__item--five:hover h2 {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__item--five p {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 130px;
+    transform: translateX(220%);
+}
+
+.portfolio__item--five:hover p {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__buttons {
+    position: absolute;
+    left: 50%;
+    margin-left: -33%;
+    top: 200px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--five:hover .portfolio__buttons{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+/* "Fin card number five" */
+
+.portfolio__item--six {
+    background-image:url(../img/Cifrador_Challenge_Alura_ONE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: var(--white);
+    position: relative;
+}
+
+.portfolio__item--six:hover {
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-size: 120%, 110%;
+}
+
+.portfolio__item--six::before {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--six:hover::before {
+    width: 80%;
+}
+
+.portfolio__item--six::after {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.6s;
+}
+
+.portfolio__item--six:hover::after {
+    width: 80%;
+}
+
+.portfolio__item--six h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 70px;
+    transform: translateX(-220%);
+}
+
+.portfolio__item--six:hover h2 {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__item--six p {
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top: 130px;
+    transform: translateX(220%);
+}
+
+.portfolio__item--six:hover p {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.portfolio__buttons {
+    position: absolute;
+    left: 50%;
+    margin-left: -33%;
+    top: 200px;
+    transform: translateX(-120%);
+}
+
+.portfolio__item--six:hover .portfolio__buttons{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+/* "Fin card number six" */
+
 .main__contact {
     width: 100%;
     display: inherit;
